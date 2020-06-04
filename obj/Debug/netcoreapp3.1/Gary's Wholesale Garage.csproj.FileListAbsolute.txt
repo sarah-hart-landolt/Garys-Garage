@@ -1,0 +1,13 @@
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.exe
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.deps.json
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.runtimeconfig.json
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.runtimeconfig.dev.json
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.dll
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\bin\Debug\netcoreapp3.1\Gary's Wholesale Garage.pdb
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.csprojAssemblyReference.cache
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.AssemblyInfoInputs.cache
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.AssemblyInfo.cs
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.csproj.CoreCompileInputs.cache
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.dll
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.pdb
+C:\Users\sarah\workspace\csharp\exercises\Gary's Wholesale Garage\obj\Debug\netcoreapp3.1\Gary's Wholesale Garage.genruntimeconfig.cache
