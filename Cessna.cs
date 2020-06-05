@@ -1,16 +1,21 @@
 using System;
 
-public class Cessna : Vehicle
+namespace GarysWholesaleGarage
 {
-    public double FuelCapacity { get; set; }
-
-    public void RefuelTank()
+    public class Cessna : Vehicle, IPetrol
     {
-        // method definition omitted
-    }
+        public double FuelCapacity { get; set; }
+        public int CurrentTankPercentage { get; set; }
 
-    public override void Drive()
-    {
-        Console.WriteLine("Zoooooom!");
+
+        public override void Drive()
+        {
+            Console.WriteLine("Zoooooom!");
+        }
+
+        public void RefuelTank()
+        {
+             CurrentTankPercentage = 100;
+        }
     }
 }

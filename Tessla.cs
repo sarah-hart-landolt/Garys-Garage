@@ -1,14 +1,13 @@
 using System;
+using System.Collections.Generic;
+using GarysWholesaleGarage;
 
-public class Tesla: Vehicle  // Electric car
+public class Tesla: Vehicle, IElectric  // Electric car
 {
     public double BatteryKWh { get; set; }
-    public void ChargeBattery()
-    {
-        // method definition omitted
-    }
+    public int CurrentChargePercentage { get; set; }
 
-     public override void Drive()
+    public override void Drive()
     {
         Console.WriteLine("Badda Bing Badda Boom!");
     }
@@ -21,5 +20,10 @@ public class Tesla: Vehicle  // Electric car
     public override void Stop()
     {
         Console.WriteLine("The Tesla silently stops as if it never moved!");
+    }
+
+    public void ChargeBattery()
+    {
+        CurrentChargePercentage= 100;    
     }
 }

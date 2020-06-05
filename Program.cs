@@ -1,32 +1,63 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Gary_s_Wholesale_Garage
+namespace GarysWholesaleGarage
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            Zero fxs = new Zero();
-            Tesla modelS = new Tesla();
-            Cessna mx410 = new Cessna();
-            Ram Classic1500= new Ram();
 
-            fxs.Drive();
-            fxs.Turn();
-            fxs.Stop();
-            Console.WriteLine("");
-            modelS.Drive();
-            modelS.Turn();
-            modelS.Stop();
-Console.WriteLine("");
-            mx410.Drive();
-            mx410.Turn();
-            mx410.Stop();
-Console.WriteLine("");
-            Classic1500.Drive();
-            Classic1500.Turn();
-            Classic1500.Stop();
-            
+{
+            Zero fxs = new Zero();
+            Zero fx = new Zero();
+            Tesla modelS = new Tesla();
+
+            List<IElectric> electricVehicles = new List<IElectric> {
+                fx, fxs, modelS
+            };
+
+            Console.WriteLine("Electric Vehicles");
+            foreach(IElectric ev in electricVehicles)
+            {
+                Console.WriteLine($"{ev.CurrentChargePercentage}");
+            }
+
+            foreach(IElectric ev in electricVehicles)
+            {
+                // This should charge the vehicle to 100%
+                ev.ChargeBattery();
+            }
+
+            foreach(IElectric ev in electricVehicles)
+            {
+                Console.WriteLine($"{ev.CurrentChargePercentage}");
+            }
+
+            /***********************************************/
+
+            Ram ram = new Ram ();
+            Cessna cessna150 = new Cessna ();
+
+            List<IPetrol> gasVehicles = new List<IPetrol>() {
+                ram, cessna150
+            };
+
+            Console.WriteLine("Gas Vehicles");
+            foreach(IPetrol gv in gasVehicles)
+            {
+                Console.WriteLine($"{gv.CurrentTankPercentage}");
+            }
+
+            foreach(IPetrol gv in gasVehicles)
+            {
+                // This should completely refuel the gas tank
+                gv.RefuelTank();
+            }
+
+            foreach(IPetrol gv in gasVehicles)
+            {
+                Console.WriteLine($"{gv.CurrentTankPercentage}");
+            }
         }
     }
 }

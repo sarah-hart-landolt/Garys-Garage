@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarah\\workspace\\csharp\\exercises\\Gary's Wholesale Garage\\Gary's Wholesale Garage.csproj": {}
+    "C:\\Users\\sarah\\workspace\\csharp\\exercises\\GarysWholesaleGarage\\Gary's Wholesale Garage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarah\\workspace\\csharp\\exercises\\Gary's Wholesale Garage\\Gary's Wholesale Garage.csproj": {
+    "C:\\Users\\sarah\\workspace\\csharp\\exercises\\GarysWholesaleGarage\\Gary's Wholesale Garage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\Gary's Wholesale Garage\\Gary's Wholesale Garage.csproj",
+        "projectUniqueName": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\GarysWholesaleGarage\\Gary's Wholesale Garage.csproj",
         "projectName": "Gary's Wholesale Garage",
-        "projectPath": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\Gary's Wholesale Garage\\Gary's Wholesale Garage.csproj",
+        "projectPath": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\GarysWholesaleGarage\\Gary's Wholesale Garage.csproj",
         "packagesPath": "C:\\Users\\sarah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\Gary's Wholesale Garage\\obj\\",
+        "outputPath": "C:\\Users\\sarah\\workspace\\csharp\\exercises\\GarysWholesaleGarage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sarah\\AppData\\Roaming\\NuGet\\NuGet.Config",
